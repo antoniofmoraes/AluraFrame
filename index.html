@@ -60,11 +60,13 @@
     </table>
     <script src="js/app/models/Negotiation.js"></script>
     <script>
-        var n1 = new Negotiation(new Date(), 10, 500);
+
+        var today = new Date();
+
+        var n1 = new Negotiation(today, 10, 500);
         console.log(n1.date);
-        console.log(n1.amount);
-        console.log(n1.value);
-        console.log(n1.volume);
+        today = setDate(11)
+        console.log(n1.date);
     </script>
 </body>
 </html>
