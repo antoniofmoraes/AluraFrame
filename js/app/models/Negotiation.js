@@ -7,8 +7,8 @@ class Negotiation {
         this._volume = amount * value;
     }
 
-    getDate() { return this._date; }
-    getAmount() { return this._amount; }
-    getValue() { return this._value; }
-    getVolume() { return this._volume; }
+    get date() { return this._date; }
+    get amount() { return this._amount; }
+    get value() { return this._value; }
+    get volume() { return this._volume; }
 }
