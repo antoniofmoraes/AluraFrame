@@ -60,12 +60,10 @@
     </table>
     <script src="js/app/models/Negotiation.js"></script>
     <script>
-        var n1 = new Negotiation();
-        n1.amount = 10;
+        var n1 = new Negotiation(new Date(), 10, 500);
         console.log(n1);
 
-        var n2 = new Negotiation();
-        n2.amount = 20;
+        var n2 = new Negotiation(new Date(), 20, 300);
         console.log(n2);
     </script>
 </body>
