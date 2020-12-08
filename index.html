@@ -60,10 +60,9 @@
     </table>
     <script src="js/app/models/Negotiation.js"></script>
     <script>
+        let today = new Date();
 
-        var today = new Date();
-
-        var n1 = new Negotiation(today, 10, 500);
+        let n1 = new Negotiation(today, 10, 500);
         console.log(n1.date);
         today = setDate(11)
         console.log(n1.date);
